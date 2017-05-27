@@ -11,3 +11,6 @@ import ssl
 from urlparse import urljoin
 from urlparse import urlparse
 from BeautifulSoup import *
+
+conn = sqlite3.connect(stockydb.sqlite)
+crsr = conn.cursor()
